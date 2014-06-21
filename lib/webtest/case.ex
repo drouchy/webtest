@@ -18,8 +18,6 @@ defmodule Webtest.Case do
   defmacro __using__(_opts \\ []) do
     quote do
       import Webtest.Case
-      import Webtest.Assertions
-      import Webtest.Http
     end
   end
 
