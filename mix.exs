@@ -9,16 +9,11 @@ defmodule Webtest.Mixfile do
 
   def application do
     [
-      applications: [ :jsex, :httpoison ]
+      applications: []
     ]
   end
 
   defp deps do
-    [
-      { :jsex, github: "talentdeficit/jsex" },
-      { :hackney, github: "benoitc/hackney", override: true},
-      { :hackney_lib, github: "benoitc/hackney_lib", override: true},
-      { :httpoison, github: "d0rc/httpoison"}
-    ]
+    []
   end
 end
